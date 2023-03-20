@@ -1,3 +1,3 @@
 ## product-preview-card-component
-##Screenshop
+## Screenshop
 ![](/Users/ellen/Desktop)
