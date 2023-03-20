@@ -8,3 +8,4 @@ Project | Demo | Source Code
 |qr-code-component | [Live] (https://melodious-basbousa-a9b4f1.netlify.app) | [Code] 
 |article-preview-component | [Live] | [Code]
 |project name | [Live] | [Code]
+| Product preview card  |  [Live](https://frontendmentor-product-preview-card.netlify.app)  | [Code](https://github.com/Annie-Chien/frontend-mentor-solution/tree/product-preview-card) |
