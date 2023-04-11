@@ -1,0 +1,49 @@
+
+/* 
+這樣是自定義了高度，即便我可以居中
+body{
+    margin: 0 auto; 改變img location
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    background-color: hsl(212, 45%, 89%);
+    text-align: center;
+} 
+*/
+
+/* 讓 QR-code card 垂直居中 詳情看 notion(https://www.notion.so/QR-Code-c355d0d5a4244b58b9e85f3639dfa663) */
+body{
+    background-color: hsl(212, 45%, 89%);
+    text-align: center;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+p{
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    font-size: 12px;
+    padding: 0 2px;
+}
+
+h4{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(218, 44%, 22%);
+    margin: 10px 0;
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    width: 220px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.QRcode-layout{
+    width: 200px;
+    align-items: center;
+    border-radius: 10px;
+}
+.text-layout{
+    padding-bottom: 10px;
+    margin: 0 10px;
+}
+

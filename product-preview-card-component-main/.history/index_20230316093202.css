@@ -1,0 +1,57 @@
+/* :root
+## color
+### Primary
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream:     hsl(30, 38%, 92%)
+
+### Neutral
+/* - Very dark blue:    hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White:             hsl(0, 0%, 100%) */
+
+/* ## Font-size
+- Font-size (paragraph): 14px
+
+## Font-style
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500, 700
+
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700
+<!-----------------------------------> */ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: hsl(30, 38%, 92%);
+    margin: 0;
+    box-sizing: border-box;
+}
+.img{
+    min-width: 100%;
+}
+
+h1, .price{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2, p{
+    font-family: "Montserrat", sans-serf;
+}
+
+
+button{
+    background: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border-style: none;
+    padding: 15px 80px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+} 
+
+

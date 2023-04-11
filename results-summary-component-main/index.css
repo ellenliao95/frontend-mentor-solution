@@ -1,0 +1,143 @@
+@media screen and (max-width: 720px){
+    /* 
+    What kind the code do I need to write? 
+    */
+}
+
+body{
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);    
+    min-height: 100vh;
+    place-content: center;
+    display: grid;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+/* left-site*/
+
+h1{
+    color: hsl(0, 0%, 100%);
+}
+.bottom-bg{
+    width: 600px;
+    height: 410px;
+    border-radius: 20px;
+    background: hsl(0, 0%, 100%);
+    display: flex;
+    box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.399);
+}
+
+.left-site{
+    background:
+    linear-gradient(
+        hsl(252, 100%, 67%), 
+        hsl(241, 81%,  54%) ) ;
+    border-radius: 20px;
+    padding: 20px 15px;
+    width: 300px;
+}
+.circle-score{
+    background: linear-gradient(
+        hsla(256, 72%, 46%, 1),
+        hsla(241, 72%, 46%, 0)
+    );
+    width: 150px;
+    height: 150px;
+    border: 1px solid none;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.circle-score h1{
+    font-size: 60px;
+    margin: 0%;
+    margin-top: 30px;
+}
+.circle-score p{
+    margin: 0%;
+}
+.text-color{
+    color: hsl(241, 100%, 89%);
+    
+}
+
+/* right-site layout*/
+.li-space{
+    padding-left: 5px;
+}
+.right-site{
+    width: 330px;
+    padding: 18px;
+}
+.right-site h2{
+    text-align: left;
+    color: hsl(224, 30%, 27%);
+    margin-left: 30px;
+}
+
+.container{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 12px;
+    width: 200px;
+    margin: 20px auto;
+}
+.container-left{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* container Background color */
+#bg-1{
+    background: hsl(0, 62%, 95%);
+}
+#bg-2{
+    background: hsl(39, 100%, 96%);
+}
+#bg-3{
+    background: hsl(166, 64%, 94%);
+}
+#bg-4{
+    background: hsl(232, 62%, 95%);
+}
+
+/* container text color*/
+#li-1{
+    color: hsl(0, 100%, 67%);
+    
+}
+#li-2{
+    color: hsl(39, 100%, 56%);
+}
+#li-3{
+    color: hsl(166, 100%, 37%); 
+}
+#li-4{
+    color: hsl(234, 85%, 45%);
+}
+.li-num-2{
+    color: hsl(224, 31%, 41%);
+}
+.li-num-3{
+    color: hsla(241, 36%, 76%, 0.865);
+}
+
+
+
+button{
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background: hsl(224, 30%, 27%);
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+button:hover{
+    background:
+    linear-gradient(
+        hsl(252, 100%, 67%), 
+        hsl(241, 81%,  54%));
+}

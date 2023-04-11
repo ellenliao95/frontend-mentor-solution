@@ -1,0 +1,85 @@
+/* :root
+## color
+### Primary
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream:     hsl(30, 38%, 92%)
+
+### Neutral
+/* - Very dark blue:    hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White:         hsl(0, 0%, 100%) */
+
+/* ## Font-size
+- Font-size (paragraph): 14px
+
+## Font-style
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500, 700
+
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700
+<!-----------------------------------> */ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(30, 38%, 92%);
+    font-family: "Montserrat", 
+    sans-serf;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*把整體放在9宮格2號位*/
+    justify-content: center;/*把整體放在9宮格5號位*/
+    min-height: calc(100vh - 0.1px);
+    margin: 0 1.5rem;
+}
+.img{
+    min-width: 100%;
+}
+.container article:last-child{
+    background-color: hsl(0, 0%, 100%);
+    /*接下來到body調整整體的size*/
+}
+
+/* layout: color, font-family */
+h1{
+    color: hsl(212, 21%, 14%);
+}
+
+.price{
+    color: hsl(158, 36%, 37%);
+}
+
+h1, .price{
+    font-family: 'Fraunces', serif;
+}
+
+button, li{
+    font-family: inherit;
+}
+h2, p, li{
+    color: hsl(228, 12%, 48%);
+}
+p{
+    line-height: 0.1rem;
+}
+h2{
+    text-transform: uppercase;/*變大寫*/
+    font-size: 1rem;
+    font-weight: 500;
+}
+button{
+    background: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border-style: none;
+    padding: 15px 80px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+} 
+
+

@@ -1,0 +1,31 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    min-height: 100vh;
+    background: rgba(235, 248, 252, 0.625);
+    Font-size: 13px;
+    font-family: 'Manrope', sans-serif;
+
+}
+h2{
+    color: hsl(217, 19%, 35%);
+}
+.drawers-img{
+    max-width: 100%;
+}
+.container{
+    background-color: white;
+}
+.head-card{
+    display: flex;
+}

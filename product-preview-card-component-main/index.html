@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- connect CSS -->
+  <link rel="stylesheet" href="index.css">
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@7Local History00&family=Manrope:wght@500;700&family=Montserrat:wght@500;700&family=Open+Sans:wght@500;700;800&family=Orbitron:wght@800&family=Outfit:wght@400;700&family=Roboto:wght@300&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Hanken+Grotesk:wght@700&family=Manrope:wght@500;700&family=Montserrat:wght@500;700&family=Open+Sans:wght@500;700;800&family=Orbitron:wght@800&family=Outfit:wght@400;700&family=Roboto:wght@300&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Product preview card component</title>
+</head>
+<body>
+  <div class="container">
+    <article>
+      <picture>
+        <source 
+        media="(min-width: 640px)" srcset="images/image-product-desktop.jpg"> 
+        <!-- 大於640px時, 顯示 desktop 的照片 -->
+        <img src="images/image-product-mobile.jpg" alt="Chanel Perfume Photo" class="img">
+        <!--小於640px時, 顯示 mobile 的照片-->
+      </picture>
+    </article>
+
+    <article>
+      <h2>Perfume</h2>  
+      <h1>Gabrielle Essence Eau De Perfume</h1>
+      <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+      Perfumer-Creator for the House of CHANEL.</p>
+      <ul>
+        <li class="price">$149.99</li>
+        <li><s>$169.99</s></li> 
+      </ul>
+     <!-- 加上<s> </s> 即可增加刪除線 -->
+      <button>
+        <img src="images/icon-cart.svg" alt="">
+        Add to Cart
+      </button>
+    </article>
+  </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/ellenliao95">Ellen Liao</a>.
+    </div>
+</body>
+</html>

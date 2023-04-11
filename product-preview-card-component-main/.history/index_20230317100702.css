@@ -1,0 +1,143 @@
+/* :root
+## color
+### Primary
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream:     hsl(30, 38%, 92%)
+
+### Neutral
+/* - Very dark blue:    hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White:         hsl(0, 0%, 100%) */
+
+/* ## Font-size
+- Font-size (paragraph): 14px
+
+## Font-style
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500, 700
+
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700
+<!-----------------------------------> */ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(30, 38%, 92%);
+    font-family: "Montserrat", 
+    sans-serf;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*把整體放在9宮格2號位*/
+    justify-content: center;/*把整體放在9宮格5號位*/
+    min-height: calc(100vh - 0.1px);
+    margin: 0 1.5rem;
+}
+
+.img{
+    max-width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.container {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 600px;
+    border-radius: 15px;
+}
+.container article:last-child{
+    padding: 20px 30px;
+}
+.container p{
+    margin-bottom: 1.5rem;
+}
+.container ul{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.container ul li:first-child{
+    font-size: 2rem;
+    margin-right: 1.5rem;
+}
+
+
+/* layout: color, font-family */
+h1{
+    color: hsl(212, 21%, 14%);
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.price{
+    color: hsl(158, 36%, 37%);
+}
+
+h1, .price{
+    font-family: 'Fraunces', serif;
+}
+
+ul{
+    list-style: none;
+}
+
+button, li{
+    font-family: inherit;
+}
+h2, p, li{
+    color: hsl(228, 12%, 48%);
+}
+p{
+    line-height: 1.8;
+}
+h2{
+    text-transform: uppercase;/*變大寫*/
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 8px;
+    letter-spacing: 3px;
+}
+button{
+    background: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border-style: none; /*also can use outline: none*/
+    font-size: 1rem;/*加大加粗btn中的文字*/
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+} 
+button img{
+    margin-right: 0.5rem; 
+    /*當我這樣寫得時候，文字與shipping car icon 沒辦法對其置中，所以要變成...
+    在button 中添加
+    display: flex;
+    justify-content: center;
+    接著讓shipping car icon 與文字中間有一點空間
+    也就是115行
+    */
+}
+button:hover{
+    background-color: hsl(158, 45%, 13%);
+}
+@media(min-width:640px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .img{
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 15px;
+        height: 100%;
+    }
+}
+
+
+.attribution{
+    margin-top: 20px;
+}

@@ -1,0 +1,45 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    min-height: 100vh;
+    background: rgba(235, 248, 252, 0.625);
+    Font-size: 13px;
+    font-family: 'Manrope', sans-serif;
+
+}
+ul{
+    list-style: none;
+}
+h2, #name{
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+}
+p, li{
+    color: hsl(212, 23%, 69%);
+    font-weight: 500;
+}
+.drawers-img{
+    max-width: 100%;
+}
+.container{
+    background-color: white;
+}
+.head-card{
+    display: flex;
+}
+.share-icon{
+width: 18px;
+ height: 20px;  
+ background: hsl(212, 23%, 69%); 
+ border-radius: 0%;
+}
